@@ -1,6 +1,6 @@
-#!/bin/ash
+#!/bin/bash
 
-curl -X POST $ROCKET_CHAT_URL \
+curl -X POST ROCKET_CHAT_URL \
 -H 'Content-Type: application/json' \
 -d \
 '{
